@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_revert"
+        android:showAsAction="ifRoom"
+        android:title="元に戻す"/>
+    <item
+        android:id="@+id/menu_load"
+        android:showAsAction="ifRoom"
+        android:title="読み込み"/>
+    <item
+        android:id="@+id/menu_save"
+        android:showAsAction="never"
+        android:title="保存"/>
+
+</menu>
